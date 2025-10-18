@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best Websites Melbourne - Premium web design services with fast, easy-to-use solutions and high conversion rates.">
+    <meta name="keywords" content="web design, Melbourne, websites, creative design, web development">
+    <meta name="author" content="Best Websites Melbourne">
+    <meta property="og:title" content="Best Websites Melbourne - Premium Web Design">
+    <meta property="og:description" content="Get fast, easy-to-use websites with high conversion rates. Low cost, free hosting, free revisions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mwd.com">
+    <title>Best Websites Melbourne - Premium Web Design Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#1E40AF',
+                        accent: '#F59E0B',
+                        dark: '#1F2937',
+                        light: '#F9FAFB',
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-in-out',
+                        'slide-up': 'slideUp 0.5s ease-out',
+                        'bounce-slow': 'bounce 3s infinite',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(20px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        },
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .scroll-smooth {
+            scroll-behavior: smooth;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #3B82F6 0%, #1E40AF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .button-hover {
+            transition: all 0.3s ease;
+        }
+
+        .button-hover:hover {
+            transform: scale(1.05);
+        }
+
+        .button-hover:active {
+            transform: scale(0.98);
+        }
+
+        .accordion-button {
+            transition: all 0.3s ease;
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .accordion-content.active {
+            max-height: 500px;
+        }
+    </style>
+</head>
+<body class="scroll-smooth bg-white text-gray-900">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-md z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="#" class="flex items-center space-x-2">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">BW</span>
+                        </div>
+                        <span class="hidden sm:inline text-xl font-bold text-gray-900">Best Websites</span>
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">Features</a>
+                    <a href="#benefits" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">Benefits</a>
+                    <a href="#faq" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">FAQ</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">Contact</a>
+                </div>
+
+                <div class="flex items-center space-x-4">
+                    <a href="https://mwd.com" class="hidden sm:inline-block px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold button-hover hover:bg-blue-700">
+                        Get Started
+                    </a>
+                    <button class="md:hidden p-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors duration-300">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 via-white to-blue-50 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 left-0 w-96 h-96 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+            <div class="absolute bottom-0 right-0 w-96 h-96 bg-amber-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="text-center mb-12">
+                <span class="inline-block px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold mb-6 tracking-wide">
+                    Melbourne's Premier Web Design Agency
+                </span>
+                <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6 leading-tight">
+                    <span class="gradient-text">Best Websites</span>
+                    <br>
+                    <span class="text-gray-900">Melbourne</span>
+                </h1>
+                <p class="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed font-light">
+                    Create stunning, fast, and easy-to-use websites that convert visitors into customers. Experience premium web design with unbeatable value.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://mwd.com" class="px-8 py-4 bg-blue-600 text-white rounded-lg font-bold text-lg button-hover hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl inline-block">
+                        Start Your Project
+                    </a>
+                    <a href="#features" class="px-8 py-4 bg-white text-blue-600 border-2 border-blue-600 rounded-lg font-bold text-lg button-hover hover:bg-blue-50 transition-all duration-300">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+
+            <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">⚡</div>
+                    <p class="text-gray-700 font-semibold">Lightning Fast</p>
+                    <p class="text-gray-500 text-sm mt-1">Optimized for speed and performance</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">🎯</div>
+                    <p class="text-gray-700 font-semibold">High Conversion</p>
+                    <p class="text-gray-500 text-sm mt-1">Designed to drive real results</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">🎨</div>
+                    <p class="text-gray-700 font-semibold">Creative Design</p>
+                    <p class="text-gray-500 text-sm mt-1">Stand out from the competition</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Why Choose Our Websites?
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                    We combine speed, usability, and conversion optimization to deliver websites that work harder for your business.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Fast Feature -->
+                <div class="card-hover bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl border border-gray-200 hover:border-blue-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Lightning Fast</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Our websites load in milliseconds, ensuring your visitors never wait. Fast loading speeds improve SEO rankings and user satisfaction.
+                    </p>
+                    <div class="mt-6 pt-6 border-t border-gray-200">
+                        <p class="text-sm font-semibold text-blue-600">⚡ Optimized Performance</p>
+                    </div>
+                </div>
+
+                <!-- Easy to Use Feature -->
+                <div class="card-hover bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl border border-gray-200 hover:border-blue-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Easy to Use</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Intuitive interfaces and seamless navigation keep your visitors engaged. We design for user experience at every step.
+                    </p>
+                    <div class="mt-6 pt-6 border-t border-gray-200">
+                        <p class="text-sm font-semibold text-blue-600">🎯 User-Centric Design</p>
+                    </div>
+                </div>
+
+                <!-- High CTA Feature -->
+                <div class="card-hover bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl border border-gray-200 hover:border-blue-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">High Conversion</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Strategic design and placement maximize your conversion rates. Every element is optimized to turn visitors into customers.
+                    </p>
+                    <div class="mt-6 pt-6 border-t border-gray-200">
+                        <p class="text-sm font-semibold text-blue-600">📈 Results-Driven</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 via-white to-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Incredible Value
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                    Get premium web design without the premium price tag. We believe great websites should be accessible to everyone.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <!-- Low Cost Benefit -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <div class="flex items-start space-x-4">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-xl bg-green-100">
+                                <svg class="h-6 w-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Low Cost</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Affordable pricing that doesn't compromise on quality. Get enterprise-grade websites at startup prices.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Free Hosting Benefit -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <div class="flex items-start space-x-4">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-xl bg-purple-100">
+                                <svg class="h-6 w-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 002 2h10a2 2 0 002-2m-7-4h.01M9 16h6"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Free Hosting</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Included hosting on our secure, fast servers. No additional monthly hosting fees to worry about.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Free Revisions Benefit -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <div class="flex items-start space-x-4">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-xl bg-orange-100">
+                                <svg class="h-6 w-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Free Revisions</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Unlimited revisions until you're completely satisfied. Your satisfaction is our priority.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Value Proposition -->
+            <div class="bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-12 text-white text-center">
+                <h3 class="text-3xl font-bold mb-4">Complete Package</h3>
+                <p class="text-lg text-blue-100 mb-8 max-w-2xl mx-auto leading-relaxed">
+                    Everything you need to establish a powerful online presence. No hidden fees, no surprises—just exceptional value.
+                </p>
+                <a href="https://mwd.com" class="inline-block px-8 py-3 bg-white text-blue-600 rounded-lg font-bold button-hover hover:bg-blue-50 transition-all duration-300">
+                    See Our Packages
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop'); opacity: 0.15;"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-800"></div>
+        
+        <div class="max-w-4xl mx-auto relative z-10 text-center">
+            <h2 class="text-4xl sm:text-5xl font-bold text-white mb-6 tracking-tight">
+                Ready to Get Started?
+            </h2>
+            <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+                Join dozens of Melbourne businesses already using our websites to grow their online presence and increase sales.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://mwd.com" class="px-8 py-4 bg-white text-blue-600 rounded-lg font-bold text-lg button-hover hover:bg-blue-50 transition-all duration-300 shadow-lg inline-block">
+                    Get Your Website Now
+                </a>
+                <a href="#contact" class="px-8 py-4 bg-blue-500 text-white rounded-lg font-bold text-lg button-hover hover:bg-blue-400 transition-all duration-300 border-2 border-white inline-block">
+                    Schedule a Consultation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-xl text-gray-600 leading-relaxed">
+                    Everything you need to know about our web design services.
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+                    <button class="accordion-button w-full px-6 py-4 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between" onclick="toggleAccordion(this)">
+                        <span>How long does it take to build a website?</span>
+                        <svg class="w-5 h-5 text-gray-600 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="px-6 py-4 text-gray-600 border-t border-gray-200">
+                            Most websites are completed within 2-4 weeks, depending on complexity and your feedback timeline. We work efficiently without compromising quality to get your site live quickly.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+                    <button class="accordion-button w-full px-6 py-4 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between" onclick="toggleAccordion(this)">
+                        <span>Is the website mobile-friendly?</span>
+                        <svg class="w-5 h-5 text-gray-600 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="px-6 py-4 text-gray-600 border-t border-gray-200">
+                            Absolutely! All our websites are fully responsive and optimized for mobile devices. We design mobile-first to ensure perfect functionality on all screen sizes.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+                    <button class="accordion-button w-full px-6 py-4 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between" onclick="toggleAccordion(this)">
+                        <span>Can you help with SEO?</span>
+                        <svg class="w-5 h-5 text-gray-600 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="px-6 py-4 text-gray-600 border-t border-gray-200">
+                            Yes! All our websites are built with SEO best practices in mind. We optimize page speed, structure, meta tags, and content to help you rank higher in search results.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+                    <button class="accordion-button w-full px-6 py-4 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between" onclick="toggleAccordion(this)">
+                        <span>What's included in your hosting?</span>
+                        <svg class="w-5 h-5 text-gray-600 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="px-6 py-4 text-gray-600 border-t border-gray-200">
+                            Our hosting includes unlimited bandwidth, SSL certificates, daily backups, 99.9% uptime guarantee, and 24/7 support. Everything you need for a secure, reliable website.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+                    <button class="accordion-button w-full px-6 py-4 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between" onclick="toggleAccordion(this)">
+                        <span>Can I make changes to my website after launch?</span>
+                        <svg class="w-5 h-5 text-gray-600 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="px-6 py-4 text-gray-600 border-t border-gray-200">
+                            Yes! We provide you with an easy-to-use content management system so you can update content, images, and text yourself. We're also available for any technical updates you need.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 6 -->
+                <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+                    <button class="accordion-button w-full px-6 py-4 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between" onclick="toggleAccordion(this)">
+                        <span>What if I'm not happy with the design?</span>
+                        <svg class="w-5 h-5 text-gray-600 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="px-6 py-4 text-gray-600 border-t border-gray-200">
+                            We offer unlimited revisions until you're completely satisfied. Your satisfaction is guaranteed. We'll work with you until your website is exactly what you envisioned.
+                        </div>
+                    </div>
+                </div
